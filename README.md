@@ -5,3 +5,5 @@
 <br>
 <p align=justify>
 This is a simple python program which could be used for downloading Sentinel 2 imageries with non-GUI interface aka API calls.</p>
+
+[Click here for official documentation.](https://sentinelsat.readthedocs.io)
