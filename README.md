@@ -9,4 +9,4 @@ This is a simple python program which could be used for downloading Sentinel 2 i
 This code is designed to allow you to download one imagery per month for a given time interval with minimal cloud coverage.
 </p>
 
-You can find more examples in the [official documentation.](https://sentinelsat.readthedocs.io)
+You can find more in the [official documentation.](https://sentinelsat.readthedocs.io)
