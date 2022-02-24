@@ -7,3 +7,5 @@
 This is a simple python program which could be used for downloading Sentinel 2 imageries with non-GUI interface aka API calls.</p>
 
 [Click here for official documentation.](https://sentinelsat.readthedocs.io)
+
+This code is particularly to download one imagery per month in the given time range which is having the least cloud coverage.

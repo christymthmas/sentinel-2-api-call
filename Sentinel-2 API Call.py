@@ -4,7 +4,7 @@ from datetime import date
 api = SentinelAPI('yourUsername', 'yourPassword', 'https://apihub.copernicus.eu/apihub')
 
 # search by polygon, time, and Hub query keywords
-footprint = geojson_to_wkt(read_geojson(r"GtheGeojsonFilePathOfYourStudyArea.geojson"))
+footprint = geojson_to_wkt(read_geojson(r"GeojsonFilePathOfYourStudyArea.geojson"))
 products = api.query(footprint,
                      date = ('fromDate', 'toDate'), #from and to dates in 'yyyymmdd' format
                      platformname = 'Sentinel-2',
@@ -46,3 +46,4 @@ for month, productsList in monthWiseProduct.items():
             print("An error occurred while downloading the product '{}' \nTrying the next one...".format(cloudList[min(cloudList)]))
             del cloudList[min(cloudList)]       
     cloudList = {} #reinitialising the dictionary for the next month
+
